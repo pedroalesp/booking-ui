@@ -1,5 +1,22 @@
 import React from 'react';
 
-const Admin = () => <h1>Hello Admin Panel :D</h1>;
+import { LoginContainer } from '../../../../packages/admin-panel/src/components/LoginContainer';
+import { FiltersContainer } from '@booking-ui/admin-panel';
+import { ContextOfFilters } from '@booking-ui/admin-panel/src/components/Filters/FiltersContext/ContextFilters';
+
+import { Layout, Dashboard } from '@booking-ui/shared';
+
+const Admin = () => {
+
+    return (
+        <>
+            <LoginContainer />
+            {/* <ContextOfFilters>
+                <FiltersContainer />
+            </ContextOfFilters> */}
+        </>
+    );
+
+};
 
 export default Admin;

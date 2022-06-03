@@ -1,0 +1,21 @@
+.footer__container {
+  grid-area: footer;
+  height: 130px;
+}
+
+.footer__wrapper {
+  max-width: 1512px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 100px;
+  padding-left: 146px;
+}
+
+.link {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(color-font-dark);
+}

@@ -17,6 +17,8 @@ node_modules
 
 # testing
 /coverage
+coverage
+.coverage*
 .out/
 
 # Build directories (next.js...)
@@ -37,6 +39,7 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
 
 
 # IDE
@@ -54,3 +57,4 @@ yarn-error.log*
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+*.env

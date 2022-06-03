@@ -1,1 +1,2 @@
-export { Demo } from './components/Demo';
+export { ResultsPage } from './components/resultsPage/Layout';
+export { LandingPage } from './components/LandingPage/LandingPage';

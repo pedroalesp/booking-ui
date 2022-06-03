@@ -1,0 +1,35 @@
+{
+  "name": "@booking-ui/notification-system",
+  "version": "1.0.0",
+  "description": "This is a notification-system module",
+  "keywords": [
+    "notification"
+  ],
+  "author": "leolicona <leolicona.dev@gmail.com>",
+  "homepage": "https://github.com/Platzi-Master-C9/booking-ui/tree/main/packages/notification-system#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leolicona/booking-ui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/leolicona/booking-ui/issues"
+  },
+  "dependencies": {
+    "react-infinite-scroll-component": "^6.1.0"
+  }
+}
